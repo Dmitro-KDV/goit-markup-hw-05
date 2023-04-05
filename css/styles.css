@@ -385,17 +385,17 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    transition: color var(--transform-hover), background-color var(--transform-hover), box-shadow var(--transform-hover);
 }
 .menu-nav {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin: 0 auto 72px;
-    transition: color var(--transform-hover), background-color var(--transform-hover), box-shadow var(--transform-hover);
 }
 .menu-nav .link-btn:hover,
 .menu-nav .link-btn:focus {
-    color:var(--text-color);
+    color: var(--text-color);
     background-color: var(--fishnet-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
